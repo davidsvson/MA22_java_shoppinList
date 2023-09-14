@@ -40,7 +40,7 @@ public class Main {
             replaced = replace(itemToRemove, newItem, shoppingList);
         }
     }
-
+// function to replace item in list
     public static boolean replace(String oldItem, String newItem, ArrayList<String> list) {
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).equals(oldItem)) {
