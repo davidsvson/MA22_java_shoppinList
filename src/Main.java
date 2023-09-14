@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
     static Scanner sc = new Scanner(System.in);
 
+
     public static void main(String[] args) {
         int MAX_SIZE = 3;
 
@@ -29,7 +30,7 @@ public class Main {
         printList(shoppingList);
     }
 
-
+// ask user to replace
     public static void checkAndReplaceItem(ArrayList<String> shoppingList, String newItem) {
         boolean replaced = false;
         while (!replaced) {
